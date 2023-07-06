@@ -17,6 +17,8 @@ function App() {
   const [dieCustom, setDieCustom] = useState({colorDot:"", colorSide:""});
 
   const [gitStateTest, setTGitStateTest] = useState(0);
+
+  const [gitStateTest2, setTGitStateTest2] = useState(2);
   
 
 
