@@ -15,10 +15,6 @@ function App() {
   const [finishTime, setFinishTime] = useState(0);
   const [bestTime, setBestTime] = useState(parseInt(localStorage.getItem("bestTime")) || 120000);
   const [dieCustom, setDieCustom] = useState({colorDot:"", colorSide:""});
-
-  const [gitStateTest, setTGitStateTest] = useState(0);
-
-  const [gitStateTest2, setTGitStateTest2] = useState(2);
   
 
 
