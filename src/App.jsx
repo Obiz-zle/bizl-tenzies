@@ -16,8 +16,11 @@ function App() {
   const [bestTime, setBestTime] = useState(parseInt(localStorage.getItem("bestTime")) || 120000);
   const [dieCustom, setDieCustom] = useState({colorDot:"", colorSide:""});
   
-
-
+  const git_hub_practice = 0;
+  const git_hub_practice1 = 1;
+  
+  
+  
   useEffect(() => {
     const allHeld = dice.every(die => die.isHeld)
     const firstValue = dice[0].value
