@@ -18,7 +18,7 @@ function App() {
   
   const git_hub_practice = 0;
   const git_hub_practice1 = 1;
-  
+  const git_hub_practice2 = 3;//separate pc to remote changes, then to local changes
   
   
   useEffect(() => {
